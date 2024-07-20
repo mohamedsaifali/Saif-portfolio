@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Saif Ali M's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>Mohamed Saif Ali M</h1>
+            <p>Enthusiastic Embedded Engineer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Hello! I'm Mohamed Saif Ali M, an enthusiastic embedded engineer with experience in embedded systems, communication protocols, and automotive automation. I aim to continuously learn and grow, contributing to cutting-edge projects and pushing the boundaries of technology.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>Embedded System</li>
+                    <li>Communication Protocol</li>
+                    <li>Automotive, Automation</li>
+                    <li>C Programming</li>
+                    <li>PIC16F877A</li>
+                    <li>8051-Microcontroller</li>
+                    <li>MPLAB-IDE, Proteus</li>
+                    <li>Embedded C</li>
+                    <li>KEIL Software</li>
+                    <li>PCB Design in KICAD</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>IoT based Smart Car Parking System</h3>
+                    <p>Developed an IoT-based smart car parking system that improves parking efficiency using sensors and real-time data.</p>
+                </div>
+                <div class="project">
+                    <h3>ADS1115 using Precise Voltage Measurement</h3>
+                    <p>Implemented precise voltage measurement using ADS1115, ensuring accurate readings and data reliability.</p>
+                </div>
+                <div class="project">
+                    <h3>Keypad Based Pin Protective Security System</h3>
+                    <p>Created a security system using a keypad-based pin protection with 8051 series microcontroller, utilizing KEIL and Proteus simulation.</p>
+                </div>
+                <div class="project">
+                    <h3>Alcohol based Vehicle Locking System</h3>
+                    <p>Designed a vehicle locking system that ensures safety by detecting alcohol levels and preventing vehicle operation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2>Education</h2>
+                <ul class="education-list">
+                    <li>Bachelor of Engineering, Electronics and Communication, 8.0 CGPA, 2021-2025</li>
+                    <li>Higher Secondary, National Hr.Sec.School, 85.5%</li>
+                    <li>SSLC, SRVS National Hr.Sec.School, 77.4%</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="resume" class="section">
+            <div class="container">
+                <h2>Resume</h2>
+                <p>You can download my resume using the link below:</p>
+                <a href="updated resume (1).pdf" download class="resume-link">Download Resume</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <form id="contact-form" action="mailto:mohamedsaifali0@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Mohamed Saif Ali M</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
